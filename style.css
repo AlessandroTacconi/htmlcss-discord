@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 30px;
+}
+
 /*
 ----
 CONTAINERS
@@ -28,6 +33,19 @@ CONTAINERS
   max-width: 950;
 }
 
+.container.link {
+  display: flex;
+}
+
+.container.top-barr {
+  align-items: center;
+}
+
+.big,
+.small {
+  justify-content: center;
+}
+
 /*
 ----
 DEBUG
@@ -40,18 +58,18 @@ DEBUG
 
 .debug .menu {
   border: 2px dashed black;
-  padding: 10px;
+  background-color: #daa520;
 }
 
 .debug .bottom-header {
   background-color: #00008b;
-  padding: 50px;
+
+  border-bottom: 4px solid yellow;
 }
 
 .debug .viola {
   border: 2px dashed black;
   height: 410px;
-  width: 950px;
   background-color: #ee82ee;
 }
 
@@ -104,50 +122,65 @@ HEADER
 */
 
 .top-header {
-  padding: 15px 370px;
+  padding: 15px;
   min-width: 1250px;
 }
 
-.container-box {
-  display: flex;
-}
-
 .menu {
-  width: calc(100% / 3);
-  background-color: #daa520;
-  align-content: center;
-}
-
-.layout {
-  margin: 0 auto;
-}
-
-.logo {
-  width: 20%;
+  padding: 10px;
 }
 
 .link {
   text-align: center;
-  width: 60%;
+  width: 50%;
+  justify-content: space-around;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
 .login {
-  width: 20%;
-  text-align: end;
+  text-align: right;
 }
 
 .bottom-header {
-  background-color: #00008b;
+  padding: 50px;
 }
 
-.container-viola {
-  display: flex;
-  justify-content: center;
+header {
+  background-image: url('img/jumbo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
 }
 
-hr {
-  background-color: #abd7e6;
-  height: 5px;
+.bottone1 {
+  display: inline-block;
+  background-color: white;
+  border-radius: 45px;
+  color: black;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+.bottone2 {
+  display: inline-block;
+  background-color: black;
+  border-radius: 45px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 20px 180px;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 45px;
+}
+
+.viola {
+  text-align: center;
+  padding: 50px;
 }
 
 /*
@@ -262,8 +295,4 @@ footer {
 .containersofndo {
   display: flex;
   justify-content: center;
-}
-
-header {
-  background-image: url('img/jumbo.png');
 }
