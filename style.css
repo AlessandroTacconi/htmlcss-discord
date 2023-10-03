@@ -11,7 +11,12 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: 30px;
+}
+
+p,
+h1,
+h2 {
+  line-height: 35px;
 }
 
 /*
@@ -82,6 +87,7 @@ DEBUG
 .debug .photo1 {
   border: 2px dashed black;
   flex-grow: 1;
+  background-color: #1e90ff;
 }
 
 .debug .box2 {
@@ -93,26 +99,31 @@ DEBUG
 .debug .photo2 {
   width: 40%;
   border: 2px dashed black;
+  background-color: #ffc0cb;
 }
 
 .debug .photo3 {
   border: 2px dashed black;
   flex-grow: 1;
+  background-color: #1e90ff;
 }
 
 .debug .photo4 {
   width: 40%;
   border: 2px dashed black;
+  background-color: #ffc0cb;
 }
 
 .debug .bottom-main {
   padding: 50px;
+  background-color: #d3d3d3;
 }
 
 .debug .verde {
   height: 940px;
   min-width: 1250px;
   border: 2px dashed black;
+  background-color: #228b22;
 }
 
 /*
@@ -175,7 +186,7 @@ header {
 
 h1 {
   margin: 40px;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .viola {
@@ -189,47 +200,48 @@ MAIN
 ----
 */
 
-.sec1 {
-  background-color: white;
+main {
+  color: black;
 }
 
-.container-photo {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+.box1 {
+  margin-top: 330px;
 }
 
-.photo1 {
-  background-color: #1e90ff;
+h2 {
+  text-align: left;
+  font-size: 40px;
+  margin-bottom: 45px;
 }
 
 .photo2 {
-  background-color: #ffc0cb;
-}
-
-.sec2 {
-  background-color: #d3d3d3;
-}
-
-.photo3 {
-  background-color: #1e90ff;
+  margin-top: 35px;
 }
 
 .photo4 {
   order: -1;
-  background-color: #ffc0cb;
-}
-.bottom-main {
-  background-color: #d3d3d3;
-}
-
-.container-verde {
-  justify-content: center;
-  display: flex;
+  margin-top: 35px;
 }
 
 .verde {
-  background-color: #228b22;
+  text-align: center;
+}
+
+.bottone3 {
+  display: inline-block;
+  background-color: #7289da;
+  border-radius: 45px;
+  color: white;
+  padding: 10px 20px;
+  margin: 20px 0 170px;
+}
+
+.verde h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 170px;
 }
 
 /*
@@ -239,11 +251,6 @@ FOOTER
 */
 footer {
   background-color: #23272a;
-}
-
-.hr2 {
-  height: 1px;
-  background-color: white;
 }
 
 .footer-section3 {
