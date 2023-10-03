@@ -1,0 +1,269 @@
+/*
+----
+*****
+----
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*
+----
+CONTAINERS
+----
+*/
+
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.container.big {
+  max-width: 1250px;
+}
+
+.container.small {
+  max-width: 950;
+}
+
+/*
+----
+DEBUG
+----
+*/
+
+.debug .top-header {
+  background-color: #add8e6;
+}
+
+.debug .menu {
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+.debug .bottom-header {
+  background-color: #00008b;
+  padding: 50px;
+}
+
+.debug .viola {
+  border: 2px dashed black;
+  height: 410px;
+  width: 950px;
+  background-color: #ee82ee;
+}
+
+.debug .box1 {
+  min-width: 1250px;
+  height: 520px;
+  padding: 50px;
+}
+
+.debug .photo1 {
+  border: 2px dashed black;
+  flex-grow: 1;
+}
+
+.debug .box2 {
+  min-width: 1250px;
+  height: 520px;
+  padding: 50px;
+}
+
+.debug .photo2 {
+  width: 40%;
+  border: 2px dashed black;
+}
+
+.debug .photo3 {
+  border: 2px dashed black;
+  flex-grow: 1;
+}
+
+.debug .photo4 {
+  width: 40%;
+  border: 2px dashed black;
+}
+
+.debug .bottom-main {
+  padding: 50px;
+}
+
+.debug .verde {
+  height: 940px;
+  min-width: 1250px;
+  border: 2px dashed black;
+}
+
+/*
+----
+HEADER
+----
+*/
+
+.top-header {
+  padding: 15px 370px;
+  min-width: 1250px;
+}
+
+.container-box {
+  display: flex;
+}
+
+.menu {
+  width: calc(100% / 3);
+  background-color: #daa520;
+  align-content: center;
+}
+
+.layout {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 20%;
+}
+
+.link {
+  text-align: center;
+  width: 60%;
+}
+
+.login {
+  width: 20%;
+  text-align: end;
+}
+
+.bottom-header {
+  background-color: #00008b;
+}
+
+.container-viola {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  background-color: #abd7e6;
+  height: 5px;
+}
+
+/*
+----
+MAIN
+----
+*/
+
+.sec1 {
+  background-color: white;
+}
+
+.container-photo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.photo1 {
+  background-color: #1e90ff;
+}
+
+.photo2 {
+  background-color: #ffc0cb;
+}
+
+.sec2 {
+  background-color: #d3d3d3;
+}
+
+.photo3 {
+  background-color: #1e90ff;
+}
+
+.photo4 {
+  order: -1;
+  background-color: #ffc0cb;
+}
+.bottom-main {
+  background-color: #d3d3d3;
+}
+
+.container-verde {
+  justify-content: center;
+  display: flex;
+}
+
+.verde {
+  background-color: #228b22;
+}
+
+/*
+----
+FOOTER
+----
+*/
+footer {
+  background-color: #23272a;
+}
+
+.hr2 {
+  height: 1px;
+  background-color: white;
+}
+
+.footer-section3 {
+  height: 100vh;
+}
+
+.box3 {
+  padding: 20px;
+  min-width: 1250px;
+  height: 660px;
+}
+
+.photo5 {
+  order: -1;
+  background-color: #f08080;
+  border: 2px dashed black;
+  width: 200px;
+}
+
+.photo6 {
+  background-color: #20b2aa;
+  border: 2px dashed white;
+  width: calc(100% / 4 - 200px);
+}
+
+.box4 {
+  padding-top: 30px;
+  padding-left: 0px 370px;
+}
+
+.sfondo {
+  background-color: #7fffd4;
+  min-width: 1250px;
+  height: 80px;
+}
+
+.fine {
+  border: 2px dashed black;
+  padding: 10px;
+  background-color: #ffb6c1;
+}
+
+.container-box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containersofndo {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-image: url('img/jumbo.png');
+}
