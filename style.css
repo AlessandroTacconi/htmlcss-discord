@@ -46,6 +46,12 @@ CONTAINERS
   align-items: center;
 }
 
+.container.bottom-footer {
+justify-content:space-between;
+color: white;
+}
+
+
 .big,
 .small {
   justify-content: center;
@@ -90,12 +96,6 @@ DEBUG
   background-color: #1e90ff;
 }
 
-.debug .box2 {
-  min-width: 1250px;
-  height: 520px;
-  padding: 50px;
-}
-
 .debug .photo2 {
   width: 40%;
   border: 2px dashed black;
@@ -124,6 +124,38 @@ DEBUG
   min-width: 1250px;
   border: 2px dashed black;
   background-color: #228b22;
+}
+
+.debug .box3 {
+  min-width: 1250px;
+  height: 660px;
+}
+
+.debug .photo5 {
+  background-color: #f08080;
+  border: 2px dashed black;
+  width: 200px;
+}
+
+.debug .colonna-grande {
+  background-color: #20b2aa;
+  border: 2px dashed white;
+  width: 25%
+}
+
+.debug .colonna-piccola {
+  background-color: #20b2aa;
+  border: 2px dashed white;
+}
+
+.debug .fine {
+  border: 2px dashed black;
+  background-color: #ffb6c1;
+}
+
+.debug .bottom-footer {
+  background-color: #7fffd4;
+  min-width: 1250px;
 }
 
 /*
@@ -241,7 +273,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 170px;
+  margin-top: 170px;ß
 }
 
 /*
@@ -249,57 +281,48 @@ h3 {
 FOOTER
 ----
 */
+ul {
+  list-style: none;
+}
+
+h4, h5 {color: #6b88da;
+margin-bottom: 5px;
+}
+
 footer {
   background-color: #23272a;
 }
 
-.footer-section3 {
-  height: 100vh;
-}
-
 .box3 {
-  padding: 20px;
-  min-width: 1250px;
-  height: 660px;
+  padding: 80px 0 45px;
+  border-bottom: 2px solid #6b88da;
 }
 
-.photo5 {
-  order: -1;
-  background-color: #f08080;
-  border: 2px dashed black;
-  width: 200px;
+.colonna-grande {
+margin-right: 15px;
 }
 
-.photo6 {
-  background-color: #20b2aa;
-  border: 2px dashed white;
-  width: calc(100% / 4 - 200px);
+
+li{
+  margin-bottom: 7px;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.fotoita{
+  width: 25px;
+height: 15px;
+}
+
+i{
+  margin: 0 5px;
 }
 
 .box4 {
   padding-top: 30px;
-  padding-left: 0px 370px;
-}
-
-.sfondo {
-  background-color: #7fffd4;
-  min-width: 1250px;
-  height: 80px;
 }
 
 .fine {
-  border: 2px dashed black;
   padding: 10px;
-  background-color: #ffb6c1;
-}
-
-.container-box2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.containersofndo {
-  display: flex;
-  justify-content: center;
 }
